@@ -19,6 +19,12 @@
             "show_announcement": true
           }
         },
+        "avada_trust_badges_sale_pop_up_app_stock_countdown_block_hVDGY3": {
+          "type": "shopify:\/\/apps\/avada-trust-badges-sale-pop-up\/blocks\/app-stock-countdown-block\/45454b7f-f6a7-4852-b770-8e0c3992a226",
+          "settings": {
+            "show_announcement": true
+          }
+        },
         "buttons": {
           "type": "buttons",
           "settings": {
@@ -45,6 +51,7 @@
         "title",
         "price",
         "avada_trust_badges_sale_pop_up_app_stock_countdown_block_39fRxJ",
+        "avada_trust_badges_sale_pop_up_app_stock_countdown_block_hVDGY3",
         "buttons",
         "essential_countdown_app_block_7TfxQM",
         "description",
