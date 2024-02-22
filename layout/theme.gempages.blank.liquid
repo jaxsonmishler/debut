@@ -194,41 +194,7 @@
 {% render 'gp-head' %}
 </head>
 
-<body class="template-{{ request.page_type | handle }}">
-
-  <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
-
-  {%- if settings.enable_ajax -%}
-    {% render 'cart-popup' %}
-  {%- endif -%}
-
-  {% section 'header' %}
-
-  <div class="page-container drawer-page-content" id="PageContainer">
-
-    <main class="main-content js-focus-hidden" id="MainContent" role="main" tabindex="-1">
+<body class="template-{{ request.page_type | handle }}"><main class="main-content js-focus-hidden" id="MainContent" role="main" tabindex="-1">
       {{ content_for_layout }}
-    </main>
-
-    {% section 'footer' %}
-
-    <div id="slideshow-info" class="visually-hidden" aria-hidden="true">
-      {{- 'sections.slideshow.navigation_instructions' | t -}}
-    </div>
-
-  </div>
-
-  <script type="application/json" data-cart-routes>
-    {
-      "cartUrl": "{{ routes.cart_url }}",
-      "cartAddUrl": "{{ routes.cart_add_url }}",
-      "cartChangeUrl": "{{ routes.cart_change_url }}"
-    }
-  </script>
-
-  <ul hidden>
-    <li id="a11y-refresh-page-message">{{ 'general.accessibility.refresh_page' | t }}</li>
-    <li id="a11y-selection-message">{{ 'general.accessibility.selection_help' | t }}</li>
-  </ul>
-</body>
+    </main></body>
 </html>
