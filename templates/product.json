@@ -68,6 +68,22 @@
         "enable_video_looping": false
       }
     },
+    "17086138671216c6bd": {
+      "type": "apps",
+      "blocks": {
+        "avada_trust_badges_sale_pop_up_app_stock_countdown_block_Am6KFh": {
+          "type": "shopify:\/\/apps\/avada-trust-badges-sale-pop-up\/blocks\/app-stock-countdown-block\/45454b7f-f6a7-4852-b770-8e0c3992a226",
+          "settings": {
+            "show_announcement": true
+          }
+        }
+      },
+      "block_order": [
+        "avada_trust_badges_sale_pop_up_app_stock_countdown_block_Am6KFh"
+      ],
+      "settings": {
+      }
+    },
     "170861275724e0fa69": {
       "type": "apps",
       "blocks": {
@@ -84,22 +100,6 @@
       "settings": {
       }
     },
-    "17086131067fff206d": {
-      "type": "apps",
-      "blocks": {
-        "avada_trust_badges_sale_pop_up_app_stock_countdown_block_48hkMz": {
-          "type": "shopify:\/\/apps\/avada-trust-badges-sale-pop-up\/blocks\/app-stock-countdown-block\/45454b7f-f6a7-4852-b770-8e0c3992a226",
-          "settings": {
-            "show_announcement": true
-          }
-        }
-      },
-      "block_order": [
-        "avada_trust_badges_sale_pop_up_app_stock_countdown_block_48hkMz"
-      ],
-      "settings": {
-      }
-    },
     "product-back-to-collection": {
       "type": "product-back-to-collection",
       "settings": {
@@ -109,8 +109,8 @@
   "order": [
     "product-recommendations",
     "main",
+    "17086138671216c6bd",
     "170861275724e0fa69",
-    "17086131067fff206d",
     "product-back-to-collection"
   ]
 }
