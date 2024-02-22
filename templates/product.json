@@ -1,13 +1,5 @@
 {
   "sections": {
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "show_product_recommendations": true,
-        "heading": "You may also like",
-        "show_vendor": false
-      }
-    },
     "main": {
       "type": "product-template",
       "blocks": {
@@ -19,6 +11,12 @@
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "avada_trust_badges_sale_pop_up_app_stock_countdown_block_39fRxJ": {
+          "type": "shopify:\/\/apps\/avada-trust-badges-sale-pop-up\/blocks\/app-stock-countdown-block\/45454b7f-f6a7-4852-b770-8e0c3992a226",
+          "settings": {
+            "show_announcement": true
           }
         },
         "buttons": {
@@ -41,22 +39,16 @@
           "type": "share",
           "settings": {
           }
-        },
-        "avada_trust_badges_sale_pop_up_app_stock_countdown_block_39fRxJ": {
-          "type": "shopify:\/\/apps\/avada-trust-badges-sale-pop-up\/blocks\/app-stock-countdown-block\/45454b7f-f6a7-4852-b770-8e0c3992a226",
-          "settings": {
-            "show_announcement": true
-          }
         }
       },
       "block_order": [
         "title",
         "price",
+        "avada_trust_badges_sale_pop_up_app_stock_countdown_block_39fRxJ",
         "buttons",
         "essential_countdown_app_block_7TfxQM",
         "description",
-        "share",
-        "avada_trust_badges_sale_pop_up_app_stock_countdown_block_39fRxJ"
+        "share"
       ],
       "settings": {
         "show_quantity_selector": true,
@@ -66,6 +58,14 @@
         "media_size": "large",
         "enable_image_zoom": false,
         "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "heading": "You may also like",
+        "show_vendor": false
       }
     },
     "17086138671216c6bd": {
@@ -96,8 +96,8 @@
     }
   },
   "order": [
-    "product-recommendations",
     "main",
+    "product-recommendations",
     "17086138671216c6bd",
     "170861275724e0fa69",
     "product-back-to-collection"
