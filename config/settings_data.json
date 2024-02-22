@@ -191,12 +191,10 @@
         "settings": {
         }
       },
-      "6885918953556522202": {
-        "type": "shopify:\/\/apps\/rombo\/blocks\/controller\/a8c32004-9dfb-4c9a-a08e-b07a18b11a78",
+      "12657775114333427046": {
+        "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app_embed\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
         "disabled": false,
         "settings": {
-          "live_storefront_animations": true,
-          "animator_enabled": true
         }
       }
     }
