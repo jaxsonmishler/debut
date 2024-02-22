@@ -26,6 +26,12 @@
           "settings": {
           }
         },
+        "essential_countdown_app_block_7TfxQM": {
+          "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app-block\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "settings": {
+            "id": "clsv1mww16664731o2cj1qnz5bx"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -34,12 +40,6 @@
         "share": {
           "type": "share",
           "settings": {
-          }
-        },
-        "essential_countdown_app_block_7TfxQM": {
-          "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app-block\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
-          "settings": {
-            "id": "clsv1mww16664731o2cj1qnz5bx"
           }
         },
         "avada_trust_badges_sale_pop_up_app_stock_countdown_block_39fRxJ": {
@@ -53,9 +53,9 @@
         "title",
         "price",
         "buttons",
+        "essential_countdown_app_block_7TfxQM",
         "description",
         "share",
-        "essential_countdown_app_block_7TfxQM",
         "avada_trust_badges_sale_pop_up_app_stock_countdown_block_39fRxJ"
       ],
       "settings": {
