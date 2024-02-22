@@ -190,6 +190,14 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "6885918953556522202": {
+        "type": "shopify:\/\/apps\/rombo\/blocks\/controller\/a8c32004-9dfb-4c9a-a08e-b07a18b11a78",
+        "disabled": false,
+        "settings": {
+          "live_storefront_animations": true,
+          "animator_enabled": true
+        }
       }
     }
   },
