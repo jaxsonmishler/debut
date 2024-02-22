@@ -2,6 +2,9 @@
   "current": {
     "type_header_font": "helvetica_n7",
     "type_base_font": "inknut_antiqua_n4",
+    "share_facebook": false,
+    "share_twitter": false,
+    "share_pinterest": false,
     "sections": {
       "header": {
         "type": "header",
@@ -11,7 +14,7 @@
           "logo_max_width": 155,
           "main_linklist": "main-menu",
           "message": true,
-          "home_page_only": true,
+          "home_page_only": false,
           "message_text": "50% OFF TODAY ONLY",
           "message_link": "",
           "color_bg": "#c10707",

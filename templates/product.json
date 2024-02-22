@@ -36,10 +36,16 @@
           "settings": {
           }
         },
-        "qikify_upsell_bundle_bundle_offer_rKq3BE": {
-          "type": "shopify:\/\/apps\/qikify-upsell-bundle\/blocks\/bundle_offer\/2e94b962-8172-4839-8ad9-7837eb8b017a",
+        "essential_countdown_app_block_7TfxQM": {
+          "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app-block\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
-            "product": "four-color-matte-moisturizing-not-easy-to-fade-and-show-off-color-cigarette-lipstick"
+            "id": "clsv1mww16664731o2cj1qnz5bx"
+          }
+        },
+        "avada_trust_badges_sale_pop_up_app_stock_countdown_block_39fRxJ": {
+          "type": "shopify:\/\/apps\/avada-trust-badges-sale-pop-up\/blocks\/app-stock-countdown-block\/45454b7f-f6a7-4852-b770-8e0c3992a226",
+          "settings": {
+            "show_announcement": true
           }
         }
       },
@@ -49,16 +55,49 @@
         "buttons",
         "description",
         "share",
-        "qikify_upsell_bundle_bundle_offer_rKq3BE"
+        "essential_countdown_app_block_7TfxQM",
+        "avada_trust_badges_sale_pop_up_app_stock_countdown_block_39fRxJ"
       ],
       "settings": {
-        "show_quantity_selector": false,
+        "show_quantity_selector": true,
         "show_vendor": false,
         "enable_payment_button": true,
         "show_share_buttons": true,
-        "media_size": "medium",
-        "enable_image_zoom": true,
+        "media_size": "large",
+        "enable_image_zoom": false,
         "enable_video_looping": false
+      }
+    },
+    "170861275724e0fa69": {
+      "type": "apps",
+      "blocks": {
+        "essential_countdown_app_block_d8jVYp": {
+          "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app-block\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "settings": {
+            "id": "clsv1mww16664731o2cj1qnz5bx"
+          }
+        }
+      },
+      "block_order": [
+        "essential_countdown_app_block_d8jVYp"
+      ],
+      "settings": {
+      }
+    },
+    "17086131067fff206d": {
+      "type": "apps",
+      "blocks": {
+        "avada_trust_badges_sale_pop_up_app_stock_countdown_block_48hkMz": {
+          "type": "shopify:\/\/apps\/avada-trust-badges-sale-pop-up\/blocks\/app-stock-countdown-block\/45454b7f-f6a7-4852-b770-8e0c3992a226",
+          "settings": {
+            "show_announcement": true
+          }
+        }
+      },
+      "block_order": [
+        "avada_trust_badges_sale_pop_up_app_stock_countdown_block_48hkMz"
+      ],
+      "settings": {
       }
     },
     "product-back-to-collection": {
@@ -70,6 +109,8 @@
   "order": [
     "product-recommendations",
     "main",
+    "170861275724e0fa69",
+    "17086131067fff206d",
     "product-back-to-collection"
   ]
 }
