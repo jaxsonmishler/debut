@@ -10,62 +10,19 @@
         "text_size": "large",
         "title": "OUR BESTSELLER",
         "text": "<p>Unrestrained is back in stock for a limited time! &lt;3<\/p>",
-        "button_label": "",
-        "button_link": ""
+        "button_label": "SHOP HERE <3",
+        "button_link": "shopify:\/\/products\/four-color-matte-moisturizing-not-easy-to-fade-and-show-off-color-cigarette-lipstick"
       }
     },
     "feature-row": {
       "type": "feature-row",
       "settings": {
+        "image": "shopify:\/\/shop_images\/78aeeeed-69eb-4dec-95c8-24ec4770b35c.jpg",
         "layout": "left",
-        "title": "Image with text",
-        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "title": "✨4 New Shades ✨",
+        "text": "<h2><em><strong>These unique lip shades promise not only to envelop your lips in rich, velvety color that lasts all day but also to serve as a bold statement piece in your makeup arsenal. <\/strong><\/em><\/h2>",
         "button_label": "",
         "button_link": ""
-      }
-    },
-    "feature-columns": {
-      "type": "feature-columns",
-      "blocks": {
-        "feature-columns-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "feature-columns-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "feature-columns-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "feature-columns-0",
-        "feature-columns-1",
-        "feature-columns-2"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "left"
       }
     },
     "collection": {
@@ -73,7 +30,7 @@
       "settings": {
         "title": "Featured collection",
         "collection": "frontpage",
-        "grid": 4,
+        "grid": 3,
         "rows": 2,
         "show_vendor": false,
         "show_view_all": false
@@ -82,14 +39,15 @@
     "hero-2": {
       "type": "hero",
       "settings": {
+        "image": "shopify:\/\/shop_images\/montylov-HyBXy5PHQR8-unsplash.jpg",
         "alignment": "center",
         "hero_layout": "full_width",
         "hero_size": "medium",
         "text_size": "large",
-        "title": "Image with text overlay",
-        "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-        "button_label": "",
-        "button_link": ""
+        "title": "FIERY, FIERCE, & LONGLASTING",
+        "text": "<p>Dare to redefine your makeup.<\/p>",
+        "button_label": "SHOP",
+        "button_link": "shopify:\/\/products\/four-color-matte-moisturizing-not-easy-to-fade-and-show-off-color-cigarette-lipstick"
       }
     },
     "quotes": {
@@ -98,19 +56,27 @@
         "quotes-0": {
           "type": "quote",
           "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name"
+            "quote": "<p>I admit, I bought these lipsticks mainly for the novelty of the cigarette design, but <em><strong>I was blown away by the quality<\/strong><\/em> of the product itself. Each of the four shades is uniquely flattering, making it hard to choose a favorite. They've become my daily essential.<\/p>",
+            "author": "Kaylee L. (IN)"
           }
         },
         "quotes-1": {
           "type": "quote",
           "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name"
+            "quote": "<p>As a makeup enthusiast, I'm always on the lookout for unique products, and these warm-toned lipsticks caught my eye immediately. The packaging is clever and definitely a novelty. <em><strong>The shades are versatile, rich<\/strong><\/em>, and have a beautiful matte finish that I love.<\/p>",
+            "author": "Brianna T. (LA)"
+          }
+        },
+        "quote_zgrica": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Each shade is perfect for my olive skin tone, offering just the right amount of warmth for any occasion. <em><strong>The formula is creamy, long-lasting, and doesn't dry out my lips<\/strong><\/em>, which is a huge plus. It's safe to say, these lipsticks have quickly become my go-to. <\/p>",
+            "author": "Shanique S. (CA)"
           }
         },
         "quotes-2": {
           "type": "quote",
+          "disabled": true,
           "settings": {
             "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
             "author": "Author's name"
@@ -120,60 +86,19 @@
       "block_order": [
         "quotes-0",
         "quotes-1",
+        "quote_zgrica",
         "quotes-2"
       ],
       "settings": {
         "title": ""
-      }
-    },
-    "image-bar": {
-      "type": "image-bar",
-      "blocks": {
-        "image-bar-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1734117568207261696.jpg",
-            "alignment": "center",
-            "link": "",
-            "cta_label": ""
-          }
-        },
-        "image-bar-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/60f173f9-4a1d-4ebe-8cb2-58e883197754.jpg",
-            "alignment": "top",
-            "link": "",
-            "cta_label": ""
-          }
-        },
-        "image-bar-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/78aeeeed-69eb-4dec-95c8-24ec4770b35c.jpg",
-            "alignment": "center",
-            "link": "",
-            "cta_label": ""
-          }
-        }
-      },
-      "block_order": [
-        "image-bar-0",
-        "image-bar-1",
-        "image-bar-2"
-      ],
-      "settings": {
-        "section_height": "medium"
       }
     }
   },
   "order": [
     "hero-1",
     "feature-row",
-    "feature-columns",
     "collection",
     "hero-2",
-    "quotes",
-    "image-bar"
+    "quotes"
   ]
 }
