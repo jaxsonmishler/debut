@@ -25,17 +25,6 @@
         "button_link": ""
       }
     },
-    "collection": {
-      "type": "collection",
-      "settings": {
-        "title": "Featured collection",
-        "collection": "frontpage",
-        "grid": 3,
-        "rows": 2,
-        "show_vendor": false,
-        "show_view_all": false
-      }
-    },
     "hero-2": {
       "type": "hero",
       "settings": {
@@ -48,6 +37,17 @@
         "text": "<p>Dare to redefine your makeup.<\/p>",
         "button_label": "SHOP",
         "button_link": "shopify:\/\/products\/four-color-matte-moisturizing-not-easy-to-fade-and-show-off-color-cigarette-lipstick"
+      }
+    },
+    "collection": {
+      "type": "collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "frontpage",
+        "grid": 3,
+        "rows": 2,
+        "show_vendor": false,
+        "show_view_all": false
       }
     },
     "quotes": {
@@ -97,8 +97,8 @@
   "order": [
     "hero-1",
     "feature-row",
-    "collection",
     "hero-2",
+    "collection",
     "quotes"
   ]
 }
