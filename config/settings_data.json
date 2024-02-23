@@ -5,6 +5,7 @@
     "share_facebook": false,
     "share_twitter": false,
     "share_pinterest": false,
+    "favicon": "shopify:\/\/shop_images\/RETRO_ROUGHE_FINAL_LOGO.png",
     "sections": {
       "header": {
         "type": "header",
