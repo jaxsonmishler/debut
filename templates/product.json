@@ -35,6 +35,13 @@
           "settings": {
           }
         },
+        "avada_trust_badges_sale_pop_up_app_badge_v2_block_CeWAQr": {
+          "type": "shopify:\/\/apps\/avada-trust-badges-sale-pop-up\/blocks\/app-badge-v2-block\/45454b7f-f6a7-4852-b770-8e0c3992a226",
+          "settings": {
+            "badge_id": "AVADA-65754387",
+            "avada_badge_size": "large"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -48,6 +55,7 @@
         "buttons",
         "essential_countdown_app_block_7TfxQM",
         "description",
+        "avada_trust_badges_sale_pop_up_app_badge_v2_block_CeWAQr",
         "share"
       ],
       "settings": {
@@ -55,7 +63,7 @@
         "show_vendor": false,
         "enable_payment_button": true,
         "show_share_buttons": true,
-        "media_size": "large",
+        "media_size": "medium",
         "enable_image_zoom": false,
         "enable_video_looping": false
       }

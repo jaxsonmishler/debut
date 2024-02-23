@@ -1,5 +1,7 @@
 {
   "current": {
+    "color_borders": "#EA0606",
+    "color_body_bg": "#ffffff",
     "type_header_font": "helvetica_n7",
     "type_base_font": "inknut_antiqua_n4",
     "share_facebook": false,
@@ -138,7 +140,7 @@
         ],
         "settings": {
           "show_payment_icons": true,
-          "color_footer_bg": "#f6f6f6",
+          "color_footer_bg": "#ffdcdc",
           "color_footer_text": "#333232",
           "show_currency_selector": true,
           "show_locale_selector": true
