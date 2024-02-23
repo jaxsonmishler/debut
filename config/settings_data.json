@@ -6,6 +6,8 @@
     "share_twitter": false,
     "share_pinterest": false,
     "favicon": "shopify:\/\/shop_images\/RETRO_ROUGHE_FINAL_LOGO.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/RETRO_ROUGHE_FINAL_LOGO.png",
+    "checkout_body_background_image": "shopify:\/\/shop_images\/montylov-HyBXy5PHQR8-unsplash.jpg",
     "sections": {
       "header": {
         "type": "header",
