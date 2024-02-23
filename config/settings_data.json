@@ -9,8 +9,8 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/RETRO_ROUGHE_FINAL_LOGO.png",
     "checkout_logo_size": "large",
     "checkout_sidebar_background_image": "shopify:\/\/shop_images\/marek-okon-H2kyVtTjLfU-unsplash.jpg",
-    "checkout_accent_color": "#dd1d1d",
-    "checkout_button_color": "#dd1d1d",
+    "checkout_accent_color": "#fd7629",
+    "checkout_button_color": "#fd7629",
     "sections": {
       "header": {
         "type": "header",
